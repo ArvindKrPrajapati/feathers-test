@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "./public/",
+  "origins": [
+    "http://localhost:3030"
+  ],
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "mongodb": "mongodb+srv://arvind:1432@cluster0.p5lcg.mongodb.net/mytodo-test?retryWrites=true&w=majority"
+}
